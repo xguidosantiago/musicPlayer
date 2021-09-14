@@ -332,13 +332,13 @@ namespace tpProgramacionI
             if (shuffle == 1)
             {
                 shuffle = 0;                                                                              // deshabilitar shuffle
-                btnShuffle.BackgroundImage = Properties.Resources.random_grey;                           // cambiar icono shuffle blanco     
+                btnShuffle.BackgroundImage = Properties.Resources.random_solid;                           // cambiar icono shuffle blanco     
                 tMensaje.SetToolTip(btnRepeat, "Activar Aleatorio");                                      // tooltip habilitar
             }
             else
             {
                 shuffle = 1;                                                                              // habilitar shuffle
-                btnShuffle.BackgroundImage = Properties.Resources.random_solid;                            // cambiar icono shuffle amarillo
+                btnShuffle.BackgroundImage = Properties.Resources.random_act_2;                            // cambiar icono shuffle amarillo
                 tMensaje.SetToolTip(btnRepeat, "Desactivar Aleatorio");                                   // tooltip deshabilitar
             }
         }
